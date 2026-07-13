@@ -1,0 +1,33 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Search {
+  id        String   @id @default(cuid())
+  query     String
+  type      String   // "email" | "domain" | "username" | "ip"
+  createdAt DateTime @default(now())
+
+  results Result[]
+
+  @@index([type])
+  @@index([createdAt])
+}
+
+model Result {
+  id        String   @id @default(cuid())
+  searchId  String
+  source    String   // e.g. "email", "domain", "github", "dns", "hibp"
+  data      Json
+  createdAt DateTime @default(now())
+
+  search Search @relation(fields: [searchId], references: [id], onDelete: Cascade)
+
+  @@index([searchId])
+  @@index([source])
+}
