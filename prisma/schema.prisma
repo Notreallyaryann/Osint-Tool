@@ -22,7 +22,7 @@ model Search {
 model Result {
   id        String   @id @default(cuid())
   searchId  String
-  source    String   // e.g. "email", "domain", "github", "dns", "hibp"
+  source    String   // e.g. "email", "domain", "github", "dns", "xon"
   data      Json
   createdAt DateTime @default(now())
 
