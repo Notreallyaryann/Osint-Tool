@@ -1,0 +1,15 @@
+http	145.220.226.153	8080	NL	🇳🇱 The Netherlands	elite		108ms	5 min ago
+socks4	45.95.233.237	1081	FR	🇫🇷 France	elite		44ms	5 min ago
+socks4	192.111.137.35	4145	US	🇺🇸 United States	elite		746ms	5 min ago
+http	145.220.226.8	8080	NL	🇳🇱 The Netherlands	elite		199ms	5 min ago
+http	145.220.226.249	8080	NL	🇳🇱 The Netherlands	elite		197ms	5 min ago
+http	34.69.61.247	80	US	🇺🇸 United States	anonymous		326ms	5 min ago
+http	145.220.226.235	8080	NL	🇳🇱 The Netherlands	elite		315ms	5 min ago
+http	80.74.54.148	3128	DE	🇩🇪 Germany	anonymous		35ms	5 min ago
+socks4	189.39.118.210	5678	BR	🇧🇷 Brazil	elite		1196ms	5 min ago
+http	145.220.226.195	8080	NL	🇳🇱 The Netherlands	elite		549ms	5 min ago
+socks4	89.185.80.251	1082	US	🇺🇸 United States	elite		552ms	5 min ago
+http	3.80.174.253	3128	US	🇺🇸 United States	transparent		205ms	5 min ago
+http	172.171.83.26	8080	US	🇺🇸 United States	elite		232ms	5 min ago
+socks4	69.61.200.104	36181	US	🇺🇸 United States	elite		822ms	5 min ago
+http	219.93.101.63	80	MY	🇲🇾 Malaysia	anonymous		685ms	5 min ago

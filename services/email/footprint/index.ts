@@ -1,10 +1,14 @@
 import { FootprintResult } from "./types";
 import { checkInstagram } from "./social/instagram";
+import { checkFacebook } from "./social/facebook";
+import { checkGithub } from "./social/github";
 
 export type { FootprintResult };
 
 const CHECKS = [
   checkInstagram,
+  checkFacebook,
+  checkGithub,
 ];
 
 export async function checkFootprints(email: string): Promise<{
